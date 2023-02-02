@@ -1,0 +1,162 @@
+.videoBox {
+  margin-left: 100px;
+  background-color: aqua;
+  box-shadow: 0 0 10px 3px #fff;
+}
+
+.videoBox-m {
+  background-color: aqua;
+  box-shadow: 0 0 10px 3px #fff;
+}
+
+.tagline {
+  font-size: 14px;
+  margin: 0px;
+  text-align: left;
+}
+.tagline-m {
+  text-align: center;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.tons {
+  margin: 0 auto;
+  padding-top: 200px;
+  width: 670px;
+}
+
+.tons-m {
+  margin: 0 auto;
+  padding-top: 200px;
+  width: 90%;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.link {
+  color: #ffffff;
+}
+
+.h1-gradient {
+  background: -webkit-linear-gradient(rgb(0, 234, 255), rgb(53, 148, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.h1-gradient-pro {
+  background: -webkit-linear-gradient(rgb(0, 234, 255), rgb(53, 148, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-size: 70px;
+  display: inline;
+  font-weight: 900;
+}
+
+.h1-gradient-pro-really {
+  background: -webkit-linear-gradient(rgb(0, 234, 255), rgb(53, 148, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+  margin-top: 35px;
+  font-size: 65px;
+  display: inline;
+  font-weight: 900;
+}
+
+.h1-nogradient {
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.h1-nogradient-lika {
+  margin-bottom: 20px;
+  margin-top: 25px;
+  display: inline;
+}
+
+.h1-gradient-tons {
+  background: -webkit-linear-gradient(rgb(0, 234, 255), rgb(53, 148, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-size: 50px;
+  display: inline;
+  font-weight: 900;
+}
+
+.navbutton-download {
+  margin: 20px;
+  background: linear-gradient(
+    158deg,
+    rgb(0, 170, 255) 0%,
+    rgb(129, 247, 255) 100%
+  );
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 0 10px 3px #fff;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.navbutton-download:hover {
+  margin: 20px;
+  background-color: #00a9bc;
+  color: white;
+  box-shadow: 0 0 15px 10px #fff;
+}
+
+.navbutton-buy {
+  margin: 20px;
+  background: linear-gradient(158deg, rgb(1, 255, 86) 0%, rgb(2, 95, 9) 100%);
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 0 10px 3px rgb(0, 255, 115);
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  font-weight: bolder;
+  min-width: 130px;
+}
+
+.navbutton-buy:hover {
+  margin: 20px;
+  background-color: #007d2e;
+  color: white;
+  box-shadow: 0 0 15px 10px rgb(3, 255, 137);
+  min-width: 130px;
+}
+
+.in-progress-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.in-progress-message {
+  background-color: white;
+  padding: 10px 20px;
+  border: 3px solid yellow;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: black;
+}

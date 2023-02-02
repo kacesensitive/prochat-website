@@ -1,0 +1,194 @@
+.pricing-container {
+  text-align: center;
+  padding: 2rem 0;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.pricing-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.pricing-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-card-container-m {
+  display: inline;
+  margin: 0 auto;
+}
+.pricing-card-m {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    158deg,
+    rgb(0, 135, 202) 0%,
+    rgb(129, 247, 255) 100%
+  );
+  width: 85%;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px 3px rgb(0, 166, 255);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    158deg,
+    rgb(0, 135, 202) 0%,
+    rgb(129, 247, 255) 100%
+  );
+  width: 40%;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 0 10px 3px rgb(0, 166, 255);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.pricing-card-content {
+  flex: 1;
+}
+
+.pricing-card-title {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-card-price {
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}
+
+.pricing-card-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.pricing-card-features li {
+  margin-bottom: 1rem;
+}
+
+.pricing-card-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0090f7;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 120px;
+}
+
+.pricing-card-button:hover {
+  background-color: #005b9f;
+}
+
+.pricing-card-button-buy {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #00c10a;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 120px;
+}
+
+.pricing-card-button-buy:hover {
+  background-color: #004118;
+}
+
+.in-progress-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.in-progress-message {
+  background-color: rgb(255, 230, 0);
+  padding: 10px 20px;
+  border: 7px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+.content {
+  filter: blur(8px);
+}
+
+.checks {
+  color: rgb(221, 243, 254);
+  text-align: left;
+  margin: 0 auto;
+  max-width: 60%;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.checks-indent {
+  color: rgb(221, 243, 254);
+  text-align: left;
+  margin: 0 auto;
+  max-width: 60%;
+  padding-left: 70px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.checks-m {
+  color: rgb(221, 243, 254);
+  text-align: left;
+  margin: 0 auto;
+  max-width: 90%;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.checks-indent-m {
+  color: rgb(221, 243, 254);
+  text-align: left;
+  margin: 0 auto;
+  max-width: 90%;
+  padding-left: 70px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}

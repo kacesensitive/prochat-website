@@ -1,0 +1,85 @@
+.container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.title {
+  color: white;
+}
+
+.subtitle {
+  color: white;
+  padding-bottom: 30px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 250px;
+}
+
+.download-button {
+  text-decoration: none;
+}
+
+.os-button {
+  width: 150px;
+  background-color: #0984e3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0984e3;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  margin: 20px;
+}
+
+.os-button-m {
+  width: 100px;
+  background-color: #0984e3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0984e3;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  margin: 20px;
+}
+
+.macos {
+  background-color: #55efc4;
+  text-shadow: 2px 2px #0984e3;
+  font-size: 28px;
+}
+
+.windows {
+  background-color: #0984e3;
+  text-shadow: 2px 2px #002038;
+  font-size: 28px;
+}
+
+.selected {
+  background-color: #55efc4;
+}
+
+.arrow {
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  top: -60px;
+  left: 20px;
+  transform: rotate(45deg);
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}

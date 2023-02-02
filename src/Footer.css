@@ -1,0 +1,33 @@
+.footer {
+  background-color: transparent;
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.footer-links {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
+
+.footer-links a {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #0072c6;
+}
