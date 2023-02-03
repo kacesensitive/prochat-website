@@ -102,6 +102,7 @@ export const Content = () => {
                 loop
                 style={{
                   minHeight: "200px",
+                  maxWidth: "400px",
                   marginTop: "100px",
                   minWidth: "650px",
                   borderRadius: "20px",
@@ -233,7 +234,7 @@ export const Content = () => {
             <h1 className="h1-nogradient-lika">Essential</h1>
             <h1 className="h1-gradient-tons"> filters</h1>
             <video
-              src={fourth}
+              src={third}
               playsInline
               muted
               autoPlay

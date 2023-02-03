@@ -29,10 +29,7 @@ const DownloadPage = () => {
           <h1 className="title">Download ProChat</h1>
           <p className="subtitle">Please select your operating system</p>
           <div className="buttons-container">
-            <a
-              href="https://download-link-for-macos.com"
-              className="download-button"
-            >
+            <a href="/src/assets/ProChat-0.0.1.dmg" className="download-button">
               <div
                 className={`os-button macos ${
                   os === "macos" ? "selected" : ""
@@ -46,10 +43,7 @@ const DownloadPage = () => {
                 )}
               </div>
             </a>
-            <a
-              href="https://download-link-for-windows.com"
-              className="download-button"
-            >
+            <a href="/src/assets/first.mp4" className="download-button">
               <div
                 className={`os-button windows ${
                   os === "windows" ? "selected" : ""
@@ -70,10 +64,7 @@ const DownloadPage = () => {
           <h1 className="title">Download ProChat</h1>
           <p className="subtitle">Please select your operating system</p>
           <div className="buttons-container">
-            <a
-              href="https://download-link-for-macos.com"
-              className="download-button"
-            >
+            <a href="/src/assets/ProChat-0.0.1.dmg" className="download-button">
               <div
                 className={`os-button-m macos ${
                   os === "macos" ? "selected" : ""
@@ -87,10 +78,7 @@ const DownloadPage = () => {
                 )}
               </div>
             </a>
-            <a
-              href="https://download-link-for-windows.com"
-              className="download-button"
-            >
+            <a href="/src/assets/first.mp4" className="download-button">
               <div
                 className={`os-button-m windows ${
                   os === "windows" ? "selected" : ""
